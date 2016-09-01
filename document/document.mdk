@@ -5,7 +5,9 @@ Logo          : True
 
 [TITLE]
 
-# Madoko 
+# Induction on Integers
+Prove that $ \forall n \in \mathbb{N} $
+
 
 Madoko is a fast markdown processor for writing professional articles
 with a focus on simplicity and plain text readability.
