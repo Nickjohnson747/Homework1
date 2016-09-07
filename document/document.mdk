@@ -11,7 +11,22 @@ Prove that $ \forall n \in \mathbb{N} $
 ~ Equation
 3 + 3^2 + \cdots + 3^n = \frac {3^{n+1} - 3} {2}
 ~
-
+##Solution
+###Base Case: Check formula works for $n = 1$
+~ Equation
+3^1 = \frac {3^{1+1}-3} {2} = \frac {9-3} {2} = 3
+~
+### Inductive Hypothesis: Assume formula works for $n = k$
+~ Equation
+3 + 3^2 + \cdots + 3^k = \frac {3^{k+1} - 3} {2}
+~
+### Inductive Step: Try formula with $n = k+1$
+~ Equation
+3 + 3^2 + \cdots + 3^k + 3^{k+1}= \frac {3^{k+1} - 3} {2} 
+~
+~ Equation
+(\frac {3^{k+1} - 3} {2}) + 3^{k+1} = 
+~
 # Structural Induction
 A set $S$ is defined as follows:\
 (1)  $2\in S$\
