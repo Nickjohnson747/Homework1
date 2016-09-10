@@ -43,7 +43,7 @@ Reduce the following $\lambda$-terms to their normal form:\
 \rightarrow_\beta $
 
 (2) $(\lambda z . z)(\lambda z . z z)(\lambda z . z y) \rightarrow_\alpha 
- (\lambda a . a)(\lambda b . b b)(\lambda z . z y) \rightarrow_beta (\lambda z . z y)(\lambda b . bb)$
+ (\lambda a . a)(\lambda b . b b)(\lambda z . z y) \rightarrow_\beta (\lambda z . z y)(\lambda b . bb)$
 
 
 
