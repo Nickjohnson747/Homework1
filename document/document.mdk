@@ -129,7 +129,7 @@ infix 5 @@
 ```
 ### (5)
 ```haskell
-  Error
+  Error --> @@ operator has no precedence and will return an error by using x @@ y @@ z
 ```
 \
 \
