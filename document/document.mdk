@@ -35,16 +35,17 @@ A set $S$ is defined as follows:\
 Prove that if $x \in S$ and $x \not=2$, then $x$ is divisible by 4.
 
 ##Solution
-###Base Case ($n = 2$)
+###Base Case ($n = 1$)
+$2(1) = 2 \in S$
 
 
 # $\lambda$-Calculus
 Reduce the following $\lambda$-terms to their normal form:\
-(1) $(\lambda a b c . c b a)zz(\lambda x y . x) \rightarrow_\beta (\lambda b c . (b c (\lambda x y . x))zz
-\rightarrow_\beta $
+(1) $(\lambda a b c . c b a)zz(\lambda x y . x)$
 
-(2) $(\lambda z . z)(\lambda z . z z)(\lambda z . z y) \rightarrow_\alpha 
- (\lambda a . a)(\lambda b . b b)(\lambda z . z y) \rightarrow_\beta (\lambda z . z y)(\lambda b . bb)$
+(2) $(\lambda z . z)(\lambda z . z z)(\lambda z . z y) \rightarrow_\alpha (\lambda w . w)(\lambda x . x x) (\lambda z . z y)$
+
+(3) $(\lambda y. ((\lambda x. y(xx)) (\lambda x. y(xx)))) (\lambda x.x)$
 
 
 
