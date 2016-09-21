@@ -41,9 +41,9 @@ A set $S$ is defined as follows:\
 Prove that if $x \in S$ and $x \not=2$, then $x$ is divisible by 4.
 
 ##Solution
-###Base Case ($n = 1$)
-$2(1) = 2 \in S$
-
+###Base Case ($n = 2$)
+$2(2+2) = 8 \in S$
+ 
 
 # $\lambda$-Calculus
 Reduce the following $\lambda$-terms to their normal form:\
